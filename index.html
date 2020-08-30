@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>ToDoList</title>
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel = "stylesheet">
+</head>
+<body>
+	<div id="root">
+		<div class="container">
+			<h3>Участники: Карим</h3>
+			<h3>Добавить дело</h3>
+			<input id="new-task" type="text">
+			<button id="add">Добавить</button>
+			<h3>Список дел</h3>
+			<ul id="unfinished-tasks">
+
+			</ul>
+			<h3>Завершенные дела</h3>
+			<ul id="finished-tasks">
+			</ul>
+		</div>
+		<div class="settings">
+			<div class="addToCard">
+				<h2>Добавить на карточку</h2>
+				<div class="members_add">
+					<button>
+						<span class="material-icons">
+							group_add
+							</span>
+						<p>Добавить Участника</p>
+					</button>
+				</div>
+				<div class="tagsAdd">
+					<button>
+						<span class="material-icons">
+							error
+							</span>
+						<p>Добавить Метки</p>
+					</button>					
+				</div>
+				<div class="timeAdd">
+					<button>
+						<span class="material-icons">
+							alarm
+							</span>
+						<p>Срок выполнения</p>
+					</button>					
+				</div>
+				<div class="attachmentAdd">
+					<button>
+						<span class="material-icons">
+							attachment
+							</span>
+						<p>Добавить вложения</p>
+					</button>					
+				</div>
+			</div>
+			<div class="actions">
+				<h2>Действия</h2>
+				<div class="moving">
+					<button>
+						<span class="material-icons">
+							arrow_forward
+							</span>
+						<p>перемещение</p>
+					</button>
+				</div>
+				<div class="copy">
+					<button>
+						<span class="material-icons">
+							add_to_photos
+							</span>
+						<p>копировать</p>
+					</button>
+				</div>
+				<div class="share">
+					<button>
+						<span class="material-icons">
+							share
+							</span>
+						<p>Поделиться</p>
+					</button>
+				</div>
+				<div class="notifications">
+					<button>
+						<span class="material-icons">
+							mark_email_read
+							</span>
+						<p>Уведомления</p>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
